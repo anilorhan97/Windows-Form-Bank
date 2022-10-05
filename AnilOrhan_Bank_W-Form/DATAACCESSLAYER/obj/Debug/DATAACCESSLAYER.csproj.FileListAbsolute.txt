@@ -1,0 +1,14 @@
+C:\Users\anilo\Desktop\Katmanlı-Solid Prensiplere Uygun Projeler\BANKA\DATAACCESSLAYER\obj\Debug\DATAACCESSLAYER.csproj.AssemblyReference.cache
+C:\Users\anilo\Desktop\Katmanlı-Solid Prensiplere Uygun Projeler\BANKA\DATAACCESSLAYER\obj\Debug\DATAACCESSLAYER.csproj.CoreCompileInputs.cache
+C:\Users\anilo\Desktop\Proje\BANKA\DATAACCESSLAYER\bin\Debug\DATAACCESSLAYER.dll
+C:\Users\anilo\Desktop\Proje\BANKA\DATAACCESSLAYER\bin\Debug\DATAACCESSLAYER.pdb
+C:\Users\anilo\Desktop\Proje\BANKA\DATAACCESSLAYER\bin\Debug\Entity.dll
+C:\Users\anilo\Desktop\Proje\BANKA\DATAACCESSLAYER\bin\Debug\Entity.pdb
+C:\Users\anilo\Desktop\Proje\BANKA\DATAACCESSLAYER\obj\Debug\DATAACCESSLAYER.csproj.AssemblyReference.cache
+C:\Users\anilo\Desktop\Proje\BANKA\DATAACCESSLAYER\obj\Debug\DATAACCESSLAYER.csproj.CoreCompileInputs.cache
+C:\Users\anilo\Desktop\Proje\BANKA\DATAACCESSLAYER\obj\Debug\DATAACCESSLAYER.csproj.CopyComplete
+C:\Users\anilo\Desktop\Proje\BANKA\DATAACCESSLAYER\obj\Debug\DATAACCESSLAYER.dll
+C:\Users\anilo\Desktop\Proje\BANKA\DATAACCESSLAYER\obj\Debug\DATAACCESSLAYER.pdb
+C:\Users\anilo\Desktop\Proje\BANKA\DATAACCESSLAYER\bin\Debug\EntityFramework.dll
+C:\Users\anilo\Desktop\Proje\BANKA\DATAACCESSLAYER\bin\Debug\Entity.dll.config
+C:\Users\anilo\Desktop\Proje\BANKA\DATAACCESSLAYER\bin\Debug\EntityFramework.xml

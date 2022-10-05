@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{28E24858-2D84-446A-92F8-C51A579FD634}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>BANKA</RootNamespace>
+    <AssemblyName>BANKA</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BANKDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BANKDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="deneme.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>deneme.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="deneme.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>deneme.tt</DependentUpon>
+    </Compile>
+    <Compile Include="deneme.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>deneme.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="islemler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="islemler.Designer.cs">
+      <DependentUpon>islemler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="istatistik.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="istatistik.Designer.cs">
+      <DependentUpon>istatistik.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kayit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kayit.Designer.cs">
+      <DependentUpon>kayit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="musterilogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="musterilogin.Designer.cs">
+      <DependentUpon>musterilogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Plogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Plogin.Designer.cs">
+      <DependentUpon>Plogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SEHIR.cs">
+      <DependentUpon>deneme.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sehirler\TBL_MUSTERI.cs" />
+    <Compile Include="TBL_BAKIYE.cs">
+      <DependentUpon>deneme.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TBL_MUSTERI.cs">
+      <DependentUpon>deneme.tt</DependentUpon>
+    </Compile>
+    <Compile Include="yoneticilogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="yoneticilogin.Designer.cs">
+      <DependentUpon>yoneticilogin.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="islemler.resx">
+      <DependentUpon>islemler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="istatistik.resx">
+      <DependentUpon>istatistik.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kayit.resx">
+      <DependentUpon>kayit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="musterilogin.resx">
+      <DependentUpon>musterilogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Plogin.resx">
+      <DependentUpon>Plogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="yoneticilogin.resx">
+      <DependentUpon>yoneticilogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EntityDeploy Include="deneme.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>deneme.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="BANKDataSet.xsc">
+      <DependentUpon>BANKDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="BANKDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BANKDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BANKDataSet.xss">
+      <DependentUpon>BANKDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="deneme.edmx.diagram">
+      <DependentUpon>deneme.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="deneme.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>deneme.Context.cs</LastGenOutput>
+      <DependentUpon>deneme.edmx</DependentUpon>
+    </Content>
+    <Content Include="deneme.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>deneme.edmx</DependentUpon>
+      <LastGenOutput>deneme.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DATAACCESSLAYER\DATAACCESSLAYER.csproj">
+      <Project>{8789ee26-3de0-4eec-8e85-447cdec74fc3}</Project>
+      <Name>DATAACCESSLAYER</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Entity\Entity.csproj">
+      <Project>{1dd1566b-a65e-48c9-9b81-50d75076b07c}</Project>
+      <Name>Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LogicLayer\LogicLayer.csproj">
+      <Project>{aa794738-c3dc-4ead-9bd6-925522526f6f}</Project>
+      <Name>LogicLayer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

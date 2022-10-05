@@ -1,0 +1,18 @@
+C:\Users\anilo\Desktop\Katmanlı-Solid Prensiplere Uygun Projeler\BANKA\Entity\bin\Debug\Entity.dll
+C:\Users\anilo\Desktop\Katmanlı-Solid Prensiplere Uygun Projeler\BANKA\Entity\bin\Debug\Entity.pdb
+C:\Users\anilo\Desktop\Katmanlı-Solid Prensiplere Uygun Projeler\BANKA\Entity\obj\Debug\Entity.csproj.AssemblyReference.cache
+C:\Users\anilo\Desktop\Katmanlı-Solid Prensiplere Uygun Projeler\BANKA\Entity\obj\Debug\Entity.csproj.CoreCompileInputs.cache
+C:\Users\anilo\Desktop\Katmanlı-Solid Prensiplere Uygun Projeler\BANKA\Entity\obj\Debug\Entity.dll
+C:\Users\anilo\Desktop\Katmanlı-Solid Prensiplere Uygun Projeler\BANKA\Entity\obj\Debug\Entity.pdb
+C:\Users\anilo\Desktop\Proje\BANKA\Entity\bin\Debug\Entity.dll
+C:\Users\anilo\Desktop\Proje\BANKA\Entity\bin\Debug\Entity.pdb
+C:\Users\anilo\Desktop\Proje\BANKA\Entity\obj\Debug\Entity.csproj.AssemblyReference.cache
+C:\Users\anilo\Desktop\Proje\BANKA\Entity\obj\Debug\Entity.csproj.CoreCompileInputs.cache
+C:\Users\anilo\Desktop\Proje\BANKA\Entity\obj\Debug\Entity.dll
+C:\Users\anilo\Desktop\Proje\BANKA\Entity\obj\Debug\Entity.pdb
+C:\Users\anilo\Desktop\Proje\BANKA\Entity\bin\Debug\Entity.dll.config
+C:\Users\anilo\Desktop\Proje\BANKA\Entity\bin\Debug\EntityFramework.dll
+C:\Users\anilo\Desktop\Proje\BANKA\Entity\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\anilo\Desktop\Proje\BANKA\Entity\bin\Debug\EntityFramework.xml
+C:\Users\anilo\Desktop\Proje\BANKA\Entity\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\anilo\Desktop\Proje\BANKA\Entity\obj\Debug\Entity.csproj.CopyComplete

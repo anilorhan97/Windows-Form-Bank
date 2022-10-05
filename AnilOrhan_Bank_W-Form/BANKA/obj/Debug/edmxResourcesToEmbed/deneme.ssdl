@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BANKModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="SEHIR">
+    <Key>
+      <PropertyRef Name="plaka" />
+    </Key>
+    <Property Name="plaka" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="sehirad" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TBL_BAKIYE">
+    <Key>
+      <PropertyRef Name="BAKIYE" />
+    </Key>
+    <Property Name="MUSTERIID" Type="varchar" MaxLength="50" />
+    <Property Name="BAKIYE" Type="bigint" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TBL_MUSTERI">
+    <Key>
+      <PropertyRef Name="TC" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="AD" Type="varchar" MaxLength="50" />
+    <Property Name="SOYAD" Type="varchar" MaxLength="50" />
+    <Property Name="TC" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="TELEFON" Type="varchar" MaxLength="50" />
+    <Property Name="SEHIR" Type="varchar" MaxLength="50" />
+    <Property Name="SIFRE" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <Association Name="FK_TBL_BAKIYE_TBL_MUSTERI">
+    <End Role="TBL_MUSTERI" Type="Self.TBL_MUSTERI" Multiplicity="0..1" />
+    <End Role="TBL_BAKIYE" Type="Self.TBL_BAKIYE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TBL_MUSTERI">
+        <PropertyRef Name="TC" />
+      </Principal>
+      <Dependent Role="TBL_BAKIYE">
+        <PropertyRef Name="MUSTERIID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TBL_MUSTERI_SEHIR">
+    <End Role="SEHIR" Type="Self.SEHIR" Multiplicity="0..1" />
+    <End Role="TBL_MUSTERI" Type="Self.TBL_MUSTERI" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SEHIR">
+        <PropertyRef Name="plaka" />
+      </Principal>
+      <Dependent Role="TBL_MUSTERI">
+        <PropertyRef Name="SEHIR" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="BANKModelStoreContainer">
+    <EntitySet Name="SEHIR" EntityType="Self.SEHIR" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TBL_BAKIYE" EntityType="Self.TBL_BAKIYE" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TBL_MUSTERI" EntityType="Self.TBL_MUSTERI" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_TBL_BAKIYE_TBL_MUSTERI" Association="Self.FK_TBL_BAKIYE_TBL_MUSTERI">
+      <End Role="TBL_MUSTERI" EntitySet="TBL_MUSTERI" />
+      <End Role="TBL_BAKIYE" EntitySet="TBL_BAKIYE" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TBL_MUSTERI_SEHIR" Association="Self.FK_TBL_MUSTERI_SEHIR">
+      <End Role="SEHIR" EntitySet="SEHIR" />
+      <End Role="TBL_MUSTERI" EntitySet="TBL_MUSTERI" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BANKModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="SEHIR">
+    <Key>
+      <PropertyRef Name="plaka" />
+    </Key>
+    <Property Name="plaka" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="sehirad" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="TBL_MUSTERI" Relationship="Self.FK_TBL_MUSTERI_SEHIR" FromRole="SEHIR" ToRole="TBL_MUSTERI" />
+  </EntityType>
+  <EntityType Name="TBL_BAKIYE">
+    <Key>
+      <PropertyRef Name="BAKIYE" />
+    </Key>
+    <Property Name="MUSTERIID" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="BAKIYE" Type="Int64" Nullable="false" />
+    <NavigationProperty Name="TBL_MUSTERI" Relationship="Self.FK_TBL_BAKIYE_TBL_MUSTERI" FromRole="TBL_BAKIYE" ToRole="TBL_MUSTERI" />
+  </EntityType>
+  <EntityType Name="TBL_MUSTERI">
+    <Key>
+      <PropertyRef Name="TC" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="AD" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SOYAD" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TC" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TELEFON" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SEHIR" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SIFRE" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="SEHIR1" Relationship="Self.FK_TBL_MUSTERI_SEHIR" FromRole="TBL_MUSTERI" ToRole="SEHIR" />
+    <NavigationProperty Name="TBL_BAKIYE" Relationship="Self.FK_TBL_BAKIYE_TBL_MUSTERI" FromRole="TBL_MUSTERI" ToRole="TBL_BAKIYE" />
+  </EntityType>
+  <Association Name="FK_TBL_MUSTERI_SEHIR">
+    <End Role="SEHIR" Type="Self.SEHIR" Multiplicity="0..1" />
+    <End Role="TBL_MUSTERI" Type="Self.TBL_MUSTERI" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SEHIR">
+        <PropertyRef Name="plaka" />
+      </Principal>
+      <Dependent Role="TBL_MUSTERI">
+        <PropertyRef Name="SEHIR" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TBL_BAKIYE_TBL_MUSTERI">
+    <End Role="TBL_MUSTERI" Type="Self.TBL_MUSTERI" Multiplicity="0..1" />
+    <End Role="TBL_BAKIYE" Type="Self.TBL_BAKIYE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TBL_MUSTERI">
+        <PropertyRef Name="TC" />
+      </Principal>
+      <Dependent Role="TBL_BAKIYE">
+        <PropertyRef Name="MUSTERIID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="BANKEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="SEHIR" EntityType="Self.SEHIR" />
+    <EntitySet Name="TBL_BAKIYE" EntityType="Self.TBL_BAKIYE" />
+    <EntitySet Name="TBL_MUSTERI" EntityType="Self.TBL_MUSTERI" />
+    <AssociationSet Name="FK_TBL_MUSTERI_SEHIR" Association="Self.FK_TBL_MUSTERI_SEHIR">
+      <End Role="SEHIR" EntitySet="SEHIR" />
+      <End Role="TBL_MUSTERI" EntitySet="TBL_MUSTERI" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TBL_BAKIYE_TBL_MUSTERI" Association="Self.FK_TBL_BAKIYE_TBL_MUSTERI">
+      <End Role="TBL_MUSTERI" EntitySet="TBL_MUSTERI" />
+      <End Role="TBL_BAKIYE" EntitySet="TBL_BAKIYE" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

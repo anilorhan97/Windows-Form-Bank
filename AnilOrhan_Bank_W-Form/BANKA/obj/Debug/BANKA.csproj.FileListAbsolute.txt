@@ -1,0 +1,79 @@
+C:\Users\anilo\Desktop\Katmanlı-Solid Prensiplere Uygun Projeler\BANKA\BANKA\bin\Debug\BANKA.exe.config
+C:\Users\anilo\Desktop\Katmanlı-Solid Prensiplere Uygun Projeler\BANKA\BANKA\bin\Debug\BANKA.exe
+C:\Users\anilo\Desktop\Katmanlı-Solid Prensiplere Uygun Projeler\BANKA\BANKA\bin\Debug\BANKA.pdb
+C:\Users\anilo\Desktop\Katmanlı-Solid Prensiplere Uygun Projeler\BANKA\BANKA\obj\Debug\BANKA.csproj.AssemblyReference.cache
+C:\Users\anilo\Desktop\Katmanlı-Solid Prensiplere Uygun Projeler\BANKA\BANKA\obj\Debug\BANKA.csproj.SuggestedBindingRedirects.cache
+C:\Users\anilo\Desktop\Katmanlı-Solid Prensiplere Uygun Projeler\BANKA\BANKA\obj\Debug\BANKA.Form1.resources
+C:\Users\anilo\Desktop\Katmanlı-Solid Prensiplere Uygun Projeler\BANKA\BANKA\obj\Debug\BANKA.musterilogin.resources
+C:\Users\anilo\Desktop\Katmanlı-Solid Prensiplere Uygun Projeler\BANKA\BANKA\obj\Debug\BANKA.Properties.Resources.resources
+C:\Users\anilo\Desktop\Katmanlı-Solid Prensiplere Uygun Projeler\BANKA\BANKA\obj\Debug\BANKA.csproj.GenerateResource.cache
+C:\Users\anilo\Desktop\Katmanlı-Solid Prensiplere Uygun Projeler\BANKA\BANKA\obj\Debug\BANKA.csproj.CoreCompileInputs.cache
+C:\Users\anilo\Desktop\Katmanlı-Solid Prensiplere Uygun Projeler\BANKA\BANKA\obj\Debug\BANKA.exe
+C:\Users\anilo\Desktop\Katmanlı-Solid Prensiplere Uygun Projeler\BANKA\BANKA\obj\Debug\BANKA.pdb
+C:\Users\anilo\Desktop\Katmanlı-Solid Prensiplere Uygun Projeler\BANKA\BANKA\obj\Debug\BANKA.Plogin.resources
+C:\Users\anilo\Desktop\Katmanlı-Solid Prensiplere Uygun Projeler\BANKA\BANKA\obj\Debug\BANKA.yoneticilogin.resources
+C:\Users\anilo\Desktop\Katmanlı-Solid Prensiplere Uygun Projeler\BANKA\BANKA\obj\Debug\BANKA.islemler.resources
+C:\Users\anilo\Desktop\Katmanlı-Solid Prensiplere Uygun Projeler\BANKA\BANKA\obj\Debug\BANKA.kayit.resources
+C:\Users\anilo\Desktop\Katmanlı-Solid Prensiplere Uygun Projeler\BANKA\BANKA\bin\Debug\EntityFramework.dll
+C:\Users\anilo\Desktop\Katmanlı-Solid Prensiplere Uygun Projeler\BANKA\BANKA\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\anilo\Desktop\Katmanlı-Solid Prensiplere Uygun Projeler\BANKA\BANKA\bin\Debug\EntityFramework.xml
+C:\Users\anilo\Desktop\Katmanlı-Solid Prensiplere Uygun Projeler\BANKA\BANKA\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\anilo\Desktop\Katmanlı-Solid Prensiplere Uygun Projeler\BANKA\BANKA\obj\Debug\BANKA.csproj.CopyComplete
+C:\Users\anilo\Desktop\Proje\BANKA\BANKA\bin\Debug\BANKA.exe.config
+C:\Users\anilo\Desktop\Proje\BANKA\BANKA\bin\Debug\BANKA.exe
+C:\Users\anilo\Desktop\Proje\BANKA\BANKA\bin\Debug\BANKA.pdb
+C:\Users\anilo\Desktop\Proje\BANKA\BANKA\bin\Debug\DATAACCESSLAYER.dll
+C:\Users\anilo\Desktop\Proje\BANKA\BANKA\bin\Debug\Entity.dll
+C:\Users\anilo\Desktop\Proje\BANKA\BANKA\bin\Debug\EntityFramework.dll
+C:\Users\anilo\Desktop\Proje\BANKA\BANKA\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\anilo\Desktop\Proje\BANKA\BANKA\bin\Debug\LogicLayer.dll
+C:\Users\anilo\Desktop\Proje\BANKA\BANKA\bin\Debug\DATAACCESSLAYER.pdb
+C:\Users\anilo\Desktop\Proje\BANKA\BANKA\bin\Debug\Entity.pdb
+C:\Users\anilo\Desktop\Proje\BANKA\BANKA\bin\Debug\LogicLayer.pdb
+C:\Users\anilo\Desktop\Proje\BANKA\BANKA\bin\Debug\EntityFramework.xml
+C:\Users\anilo\Desktop\Proje\BANKA\BANKA\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\anilo\Desktop\Proje\BANKA\BANKA\obj\Debug\BANKA.csproj.AssemblyReference.cache
+C:\Users\anilo\Desktop\Proje\BANKA\BANKA\obj\Debug\BANKA.csproj.SuggestedBindingRedirects.cache
+C:\Users\anilo\Desktop\Proje\BANKA\BANKA\obj\Debug\BANKA.Form1.resources
+C:\Users\anilo\Desktop\Proje\BANKA\BANKA\obj\Debug\BANKA.islemler.resources
+C:\Users\anilo\Desktop\Proje\BANKA\BANKA\obj\Debug\BANKA.kayit.resources
+C:\Users\anilo\Desktop\Proje\BANKA\BANKA\obj\Debug\BANKA.musterilogin.resources
+C:\Users\anilo\Desktop\Proje\BANKA\BANKA\obj\Debug\BANKA.Plogin.resources
+C:\Users\anilo\Desktop\Proje\BANKA\BANKA\obj\Debug\BANKA.Properties.Resources.resources
+C:\Users\anilo\Desktop\Proje\BANKA\BANKA\obj\Debug\BANKA.yoneticilogin.resources
+C:\Users\anilo\Desktop\Proje\BANKA\BANKA\obj\Debug\BANKA.csproj.GenerateResource.cache
+C:\Users\anilo\Desktop\Proje\BANKA\BANKA\obj\Debug\BANKA.csproj.CoreCompileInputs.cache
+C:\Users\anilo\Desktop\Proje\BANKA\BANKA\obj\Debug\BANKA.csproj.CopyComplete
+C:\Users\anilo\Desktop\Proje\BANKA\BANKA\obj\Debug\BANKA.exe
+C:\Users\anilo\Desktop\Proje\BANKA\BANKA\obj\Debug\BANKA.pdb
+C:\Users\anilo\Desktop\Proje\BANKA\BANKA\bin\Debug\Entity.dll.config
+C:\Users\anilo\Desktop\Proje\BANKA\BANKA\obj\Debug\BANKA.istatistik.resources
+C:\Users\anilo\Desktop\Anıl\YAZILIM\Proje\BANKA\BANKA\bin\Debug\BANKA.exe.config
+C:\Users\anilo\Desktop\Anıl\YAZILIM\Proje\BANKA\BANKA\bin\Debug\BANKA.exe
+C:\Users\anilo\Desktop\Anıl\YAZILIM\Proje\BANKA\BANKA\bin\Debug\BANKA.pdb
+C:\Users\anilo\Desktop\Anıl\YAZILIM\Proje\BANKA\BANKA\bin\Debug\DATAACCESSLAYER.dll
+C:\Users\anilo\Desktop\Anıl\YAZILIM\Proje\BANKA\BANKA\bin\Debug\Entity.dll
+C:\Users\anilo\Desktop\Anıl\YAZILIM\Proje\BANKA\BANKA\bin\Debug\EntityFramework.dll
+C:\Users\anilo\Desktop\Anıl\YAZILIM\Proje\BANKA\BANKA\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\anilo\Desktop\Anıl\YAZILIM\Proje\BANKA\BANKA\bin\Debug\LogicLayer.dll
+C:\Users\anilo\Desktop\Anıl\YAZILIM\Proje\BANKA\BANKA\bin\Debug\DATAACCESSLAYER.pdb
+C:\Users\anilo\Desktop\Anıl\YAZILIM\Proje\BANKA\BANKA\bin\Debug\Entity.pdb
+C:\Users\anilo\Desktop\Anıl\YAZILIM\Proje\BANKA\BANKA\bin\Debug\Entity.dll.config
+C:\Users\anilo\Desktop\Anıl\YAZILIM\Proje\BANKA\BANKA\bin\Debug\LogicLayer.pdb
+C:\Users\anilo\Desktop\Anıl\YAZILIM\Proje\BANKA\BANKA\bin\Debug\EntityFramework.xml
+C:\Users\anilo\Desktop\Anıl\YAZILIM\Proje\BANKA\BANKA\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\anilo\Desktop\Anıl\YAZILIM\Proje\BANKA\BANKA\obj\Debug\BANKA.csproj.AssemblyReference.cache
+C:\Users\anilo\Desktop\Anıl\YAZILIM\Proje\BANKA\BANKA\obj\Debug\BANKA.csproj.SuggestedBindingRedirects.cache
+C:\Users\anilo\Desktop\Anıl\YAZILIM\Proje\BANKA\BANKA\obj\Debug\BANKA.Form1.resources
+C:\Users\anilo\Desktop\Anıl\YAZILIM\Proje\BANKA\BANKA\obj\Debug\BANKA.islemler.resources
+C:\Users\anilo\Desktop\Anıl\YAZILIM\Proje\BANKA\BANKA\obj\Debug\BANKA.istatistik.resources
+C:\Users\anilo\Desktop\Anıl\YAZILIM\Proje\BANKA\BANKA\obj\Debug\BANKA.kayit.resources
+C:\Users\anilo\Desktop\Anıl\YAZILIM\Proje\BANKA\BANKA\obj\Debug\BANKA.musterilogin.resources
+C:\Users\anilo\Desktop\Anıl\YAZILIM\Proje\BANKA\BANKA\obj\Debug\BANKA.Plogin.resources
+C:\Users\anilo\Desktop\Anıl\YAZILIM\Proje\BANKA\BANKA\obj\Debug\BANKA.Properties.Resources.resources
+C:\Users\anilo\Desktop\Anıl\YAZILIM\Proje\BANKA\BANKA\obj\Debug\BANKA.yoneticilogin.resources
+C:\Users\anilo\Desktop\Anıl\YAZILIM\Proje\BANKA\BANKA\obj\Debug\BANKA.csproj.GenerateResource.cache
+C:\Users\anilo\Desktop\Anıl\YAZILIM\Proje\BANKA\BANKA\obj\Debug\BANKA.csproj.CoreCompileInputs.cache
+C:\Users\anilo\Desktop\Anıl\YAZILIM\Proje\BANKA\BANKA\obj\Debug\BANKA.csproj.CopyComplete
+C:\Users\anilo\Desktop\Anıl\YAZILIM\Proje\BANKA\BANKA\obj\Debug\BANKA.exe
+C:\Users\anilo\Desktop\Anıl\YAZILIM\Proje\BANKA\BANKA\obj\Debug\BANKA.pdb

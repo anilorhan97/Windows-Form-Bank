@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="BANKModelStoreContainer" CdmEntityContainer="BANKEntities">
+    <EntitySetMapping Name="SEHIR">
+      <EntityTypeMapping TypeName="BANKModel.SEHIR">
+        <MappingFragment StoreEntitySet="SEHIR">
+          <ScalarProperty Name="plaka" ColumnName="plaka" />
+          <ScalarProperty Name="sehirad" ColumnName="sehirad" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBL_MUSTERI">
+      <EntityTypeMapping TypeName="BANKModel.TBL_MUSTERI">
+        <MappingFragment StoreEntitySet="TBL_MUSTERI">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="AD" ColumnName="AD" />
+          <ScalarProperty Name="SOYAD" ColumnName="SOYAD" />
+          <ScalarProperty Name="TC" ColumnName="TC" />
+          <ScalarProperty Name="TELEFON" ColumnName="TELEFON" />
+          <ScalarProperty Name="SEHIR" ColumnName="SEHIR" />
+          <ScalarProperty Name="SIFRE" ColumnName="SIFRE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBL_BAKIYE">
+      <EntityTypeMapping TypeName="BANKModel.TBL_BAKIYE">
+        <MappingFragment StoreEntitySet="TBL_BAKIYE">
+          <ScalarProperty Name="MUSTERIID" ColumnName="MUSTERIID" />
+          <ScalarProperty Name="BAKIYE" ColumnName="BAKIYE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
